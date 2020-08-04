@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SCIMonticelloLoadSpec",
+	"category" : "SmalltalkCI-Pharo-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SCIPharoMonticelloLoadSpec",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+executing
+finishUpAfterLoading
+	self uninstallCustomToolSet.
+	super finishUpAfterLoading

@@ -1,0 +1,4 @@
+executing
+prepareForLoading
+	self installCustomToolSet.
+	super prepareForLoading
