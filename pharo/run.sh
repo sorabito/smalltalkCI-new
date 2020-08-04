@@ -330,7 +330,7 @@ pharo::run_before_scripts() {
 # Run after scripts.
 # ADDED by SORABITO Inc.
 ################################################################################
-pharo::run_before_scripts() {
+pharo::run_after_scripts() {
     print_info "Running after build scripts..."
     if [ -n "${SMALLTALK_CI_AFTER_BUILD_SCRIPTS_FOLDER+set}" ]; then
       for script_file in $( ls "${SMALLTALK_CI_AFTER_BUILD_SCRIPTS_FOLDER}" ); do
